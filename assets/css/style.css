@@ -560,13 +560,7 @@ p { line-height: 1.6; margin: 0; text-wrap: pretty; }
 
 .plan-card h3 {
   font-size: 22px;
-  margin-bottom: 4px;
-}
-
-.plan-card .plan-sub {
-  font-size: 14px;
-  color: var(--muted);
-  margin-bottom: 26px;
+  margin-bottom: 22px;
 }
 
 .plan-price .price-label {
