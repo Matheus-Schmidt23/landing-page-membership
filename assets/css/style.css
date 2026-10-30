@@ -517,9 +517,9 @@ p { line-height: 1.6; margin: 0; text-wrap: pretty; }
 
 .pricing-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 28px;
-  max-width: 1100px;
+  max-width: 860px;
   margin: 0 auto;
   align-items: stretch;
 }
@@ -540,12 +540,6 @@ p { line-height: 1.6; margin: 0; text-wrap: pretty; }
   border-color: transparent;
   color: var(--white);
   box-shadow: 0 30px 60px -28px rgba(69, 46, 120, 0.7);
-}
-
-.plan-card.plan-dark {
-  background: var(--near-black);
-  border-color: rgba(255,255,255,0.08);
-  color: var(--white);
 }
 
 .plan-badge {
@@ -574,7 +568,6 @@ p { line-height: 1.6; margin: 0; text-wrap: pretty; }
 }
 
 .plan-featured .plan-eyebrow { color: var(--lilac-end); }
-.plan-dark .plan-eyebrow { color: var(--lilac-start); }
 
 .plan-card h3 {
   font-size: 22px;
@@ -591,7 +584,6 @@ p { line-height: 1.6; margin: 0; text-wrap: pretty; }
 }
 
 .plan-featured .plan-sub { color: rgba(255,255,255,0.78); }
-.plan-dark .plan-sub { color: var(--gray-fog); }
 
 .price-row {
   display: flex;
@@ -628,7 +620,6 @@ p { line-height: 1.6; margin: 0; text-wrap: pretty; }
 }
 
 .plan-featured .price-cash { color: rgba(255,255,255,0.78); }
-.plan-dark .price-cash { color: var(--gray-fog); }
 
 .plan-features {
   margin: 28px 0 32px;
@@ -640,8 +631,7 @@ p { line-height: 1.6; margin: 0; text-wrap: pretty; }
   flex: 1;
 }
 
-.plan-featured .plan-features,
-.plan-dark .plan-features { border-top-color: rgba(255,255,255,0.16); }
+.plan-featured .plan-features { border-top-color: rgba(255,255,255,0.16); }
 
 .plan-features li {
   display: flex;
@@ -668,11 +658,6 @@ p { line-height: 1.6; margin: 0; text-wrap: pretty; }
 .plan-featured .plan-features li .check {
   background: rgba(255,255,255,0.18);
   color: var(--white);
-}
-
-.plan-dark .plan-features li .check {
-  background: rgba(176,77,221,0.22);
-  color: var(--lilac-start);
 }
 
 .btn-white {
