@@ -519,8 +519,6 @@ p { line-height: 1.6; margin: 0; text-wrap: pretty; }
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 28px;
-  max-width: 860px;
-  margin: 0 auto;
   align-items: stretch;
 }
 
